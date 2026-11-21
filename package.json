@@ -1,0 +1,16 @@
+{
+  "name": "kanban-board",
+  "version": "1.0.0",
+  "description": "Modern Kanban Board Application",
+  "scripts": {
+    "deploy": "pwsh -File ./scripts/deploy.ps1",
+    "deploy:sh": "bash ./scripts/deploy.sh"
+  },
+  "keywords": [
+    "kanban",
+    "workflow",
+    "github-pages"
+  ],
+  "author": "SpectralAnalytics",
+  "license": "MIT"
+}

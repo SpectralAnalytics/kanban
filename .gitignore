@@ -1,0 +1,18 @@
+# Ignore secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+credentials.json
+service-account*.json
+
+# Ignore OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
